@@ -1,0 +1,118 @@
+body {
+    background: linear-gradient(45deg, #bcb6b7, #fffefe);
+    /* Agrega aquí más estilos si es necesario */
+}
+
+/*productos*/
+
+.banner__item__pic a img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px; /* Borde redondeado */
+    transition: transform 0.3s ease-in-out; /* Transición suave al hacerse más grande */
+}
+
+.banner__item__pic a:hover img {
+    transform: scale(1.1); /* Hace que la imagen sea un 10% más grande al pasar el cursor */
+}
+
+
+
+
+/*Ofertas*/
+/*titulo*/
+/* Estilos para el texto "OFERTAS" */
+.ofertas-container {
+    text-align: center;
+    margin-bottom: 20px; /* Ajusta el espacio entre el título y los elementos de ofertas */
+}
+
+.ofertas-title {
+    font-family: 'Tu-Tipo-De-Fuente', sans-serif; /* Reemplaza 'Tu-Tipo-De-Fuente' con la fuente que desees usar */
+    font-size: 36px; /* Tamaño del texto */
+    font-weight: bold; /* Peso de la fuente (negrita) */
+    color: #000000; /* Color del texto */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Sombras con difuminado */
+
+    /* Otros estilos según tus preferencias, como sombras, márgenes, etc. */
+}
+
+
+
+
+/*resto de ofertas*/
+.oferta {
+    display: inline-block;
+    margin: 10px; /* Espacio entre las ofertas */
+    transition: transform 0.3s, box-shadow 0.3s; /* Agrega transiciones suaves al cambio de tamaño y sombra */
+    border-radius: 10px; /* Bordes redondeados */
+    overflow: hidden; /* Evita que las sombras se extiendan más allá de los bordes redondeados */
+    background-color: #F5F5F5; /* Fondo de color crema */
+}
+
+.oferta:hover {
+    transform: scale(1.1); /* Aumenta el tamaño al pasar el cursor */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3); /* Añade sombra al pasar el cursor */
+}
+
+.oferta a {
+    display: block;
+    text-decoration: none; /* Elimina el subrayado del enlace */
+}
+
+.oferta img {
+    width: 100%; /* Hace que la imagen ocupe todo el contenedor */
+    border-radius: 10px; /* Bordes redondeados para la imagen */
+}
+/*instagram*/
+
+/*imagenes*/
+.instagram__pic {
+    display: flex;
+    gap: 5px; /* Espacio de 5px entre las imágenes */
+}
+
+.instagram__pic__item {
+    flex: 1; /* Para que las imágenes ocupen el espacio disponible de manera equitativa */
+    border-radius: 10px; /* Borde redondeado */
+}
+
+
+
+
+
+
+
+/*texto e logo */
+.instagram__text {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Alinea el contenido al centro verticalmente */
+    text-align: center; /* Centra el texto */
+    margin-top: -140px; 
+}
+
+.instagram-button {
+    margin-top: 20px; /* Ajusta el espacio entre el texto y la imagen */
+    transition: transform 0.3s ease; /* Agrega una transición suave al cambio de escala */
+
+    /* Puedes ajustar estilos adicionales para el botón aquí si es necesario */
+}
+
+.instagram-button:hover {
+    transform: scale(1.1); /* Cambia la escala del botón al 110% cuando se coloca el cursor sobre él */
+}
+.containerh2 {
+    position: relative;
+    display: inline-block;
+}
+
+.containerh2 h2 {
+    font-family: 'Tu-Tipo-De-Fuente', sans-serif; /* Reemplaza 'Tu-Tipo-De-Fuente' con la fuente que desees usar */
+    font-size: 36px; /* Tamaño del texto */
+    font-weight: bold; /* Peso de la fuente (negrita) */
+    color: #000000; /* Color del texto */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Sombras con difuminado */
+}
+
+

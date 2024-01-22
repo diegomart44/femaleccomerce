@@ -1,0 +1,1541 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Male_Fashion Template">
+    <meta name="keywords" content="Male_Fashion, unica, creative, html">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Male-Fashion | Template</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700;800;900&display=swap"
+    rel="stylesheet">
+
+    <!-- Css Styles -->
+    <link rel="stylesheet" href="bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="elegant-icons.css" type="text/css">
+    <link rel="stylesheet" href="magnific-popup.css" type="text/css">
+    <link rel="stylesheet" href="nice-select.css" type="text/css">
+    <link rel="stylesheet" href="owl.carousel.min.css" type="text/css">
+    <link rel="stylesheet" href="slicknav.min.css" type="text/css">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="Exclusive.css" type="text/css">
+</head>
+
+<body>
+    <style>
+        body {
+            background-color: #f0f0f0; /* Sustituye con el color que prefieras */
+        }
+    </style>
+    <!-- Page Preloder -->
+    <div id="preloder">
+        <div class="loader"></div>
+    </div>
+
+      <!-- Header Section Begin -->
+    <header class="header">
+        <div class="header__top">
+          
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-25 col-md-25">  
+                    <img src="image/ANDRESSA.svg" >
+              </div>
+       
+                <div class="col-lg-6 col-md-6">
+                    <nav class="header__menu mobile-menu">
+                        <ul>
+                            <li><a href="../../index.html" class="btn-volver">Volver al Inicio</a></li>
+                            <li><a href="#">Paginas</a>
+                                <ul class="dropdown">
+                                    <li><a href="../Essencial/Essencial.html">Essencial</a></li>
+                                    <li><a href="../Bikinis/Bikinis.html">Bikinis</a></li>
+                                    <li><a href="../Luxury/Luxury.html">luxury</a></li>
+                                    <li><a href="../../about.html">sobre nosotros</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="./contact.html">Contactos</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-lg-3 col-md-3">
+                    <div class="header__nav__option">
+                        <a href="#" class="search-switch"><img src="img/icon/search.png" alt=""></a>
+
+                    </div>
+                </div>
+            </div>
+            <div class="canvas__open"><i class="fa fa-bars"></i></div>
+        </div>
+    </header>
+    <!-- Header Section End -->
+
+    <!-- Shop Section Begin -->
+    <section class="shop spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="shop__sidebar">
+                        <div class="shop__sidebar__search">
+                            <form action="#" id="productSearchForm">
+                                <input type="text" placeholder="Search by ID..." id="productSearchInput">
+                                <button type="submit"><span class="icon_search"></span></button>
+                            </form>
+                        </div>
+                        
+                        <div class="shop__sidebar__accordion">
+                            <div class="accordion" id="accordionExample">
+                                
+                                <div class="card">
+                                    <div class="card-heading">
+                                        <a data-toggle="collapse" data-target="#collapseFour">Size</a>
+                                    </div>
+                                    <div id="collapseFour" class="collapse show" data-parent="#accordionExample">
+                                        <div class="card-body">
+                                            <div class="shop__sidebar__size">
+                                                <!-- Tallas numéricas y letras como checkboxes -->
+                                                <label for="size85">85
+                                                    <input type="checkbox" id="size85" name="size" value="85">
+                                                </label>
+                                                <label for="size90">90
+                                                    <input type="checkbox" id="size90" name="size" value="90">
+                                                </label>
+                                                <label for="size95">95
+                                                    <input type="checkbox" id="size95" name="size" value="95">
+                                                </label>
+                                        
+                                                <!-- Repite para las demás tallas -->
+                                                <!-- ... -->
+                                                <!-- Botón para mostrar todos -->
+                                                <button id="resetFilter" type="button">Mostrar Todos</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="card">
+                                    <div class="card-heading">
+                                        <a data-toggle="collapse" data-target="#collapseColor">Color</a>
+                                    </div>
+                                    <div id="collapseColor" class="collapse" data-parent="#accordionExample">
+                                        <div class="card-body">
+                                            <div class="shop__sidebar__color">
+                                                <!-- Radio Button Negro -->
+                                                <input type="radio" id="colorBlack" name="color" value="negro">
+                                                <label for="colorBlack" style="color: black;"><svg width="100" height="100">
+                                                    <circle cx="20" cy="20" r="10" stroke="black" stroke-width="3" fill="black" />
+                                                </svg></label>
+                                
+                                                <!-- Radio Button Rubí -->
+                                                <input type="radio" id="colorRuby" name="color" value="ruby">
+                                                <label for="colorRuby" style="color: #E0115F;"><svg width="100" height="100">
+                                                    <circle cx="20" cy="20" r="10" stroke="black" stroke-width="3" fill="#E0115F" />
+                                                </svg></label>
+                                
+                                                <!-- Radio Button Verde -->
+                                                <input type="radio" id="colorGreen" name="color" value="verde">
+                                                <label for="colorGreen" style="color: #008000;"><svg width="100" height="100">
+                                                    <circle cx="20" cy="20" r="10" stroke="black" stroke-width="3" fill="#008000" />
+                                                </svg></label>
+                                
+                                                <!-- Radio Button Terra -->
+                                                <input type="radio" id="colorTerra" name="color" value="terra">
+                                                <label for="colorTerra" style="color: #954535;"><svg width="100" height="100">
+                                                    <circle cx="20" cy="20" r="10" stroke="black" stroke-width="3" fill="#954535" />
+                                                </svg></label>
+                                
+                                                <!-- Radio Button Sofia -->
+                                                <input type="radio" id="colorSofia" name="color" value="sofia">
+                                                <label for="colorSofia" style="color: #A783B3;"><svg width="100" height="100">
+                                                    <circle cx="20" cy="20" r="10" stroke="black" stroke-width="3" fill="#A783B3" />
+                                                </svg></label>
+                                
+                                                <!-- Radio Button Nude -->
+                                                <input type="radio" id="colorNude" name="color" value="nude">
+                                                <label for="colorNude" style="color: #FFD700;"><svg width="100" height="100">
+                                                    <circle cx="20" cy="20" r="10" stroke="black" stroke-width="3" fill="#FFD700" />
+                                                </svg></label>
+                                
+                                                <!-- Radio Button Blanco -->
+                                                <input type="radio" id="colorWhite" name="color" value="blanco">
+                                                <label for="colorWhite" style="color: rgb(255, 255, 255);"><svg width="100" height="100">
+                                                    <circle cx="20" cy="20" r="10" stroke="black" stroke-width="3" fill="white" />
+                                                </svg></label>
+                                
+                                                <!-- Radio Button Vino -->
+                                                <input type="radio" id="colorWine" name="color" value="vino">
+                                                <label for="colorWine" style="color: #722F37;"><svg width="100" height="100">
+                                                    <circle cx="20" cy="20" r="10" stroke="black" stroke-width="3" fill="#722F37" />
+                                                </svg></label>
+                                
+                                                <!-- Radio Button Naranja -->
+                                                <input type="radio" id="colorOrange" name="color" value="naranja">
+                                                <label for="colorOrange" style="color: #FFA500;"><svg width="100" height="100">
+                                                    <circle cx="20" cy="20" r="10" stroke="black" stroke-width="3" fill="#FFA500" />
+                                                </svg></label>
+                                
+                                                <!-- Radio Button Azul -->
+                                                <input type="radio" id="colorBlue" name="color" value="azul">
+                                                <label for="colorBlue" style="color: #0000FF;"><svg width="100" height="100">
+                                                    <circle cx="20" cy="20" r="10" stroke="black" stroke-width="3" fill="#0000FF" />
+                                                </svg></label>
+                                
+                                                <div class="shop__sidebar__reset">
+                                                    <button id="showAllProducts" type="button">Mostrar Todos</button>
+                                                </div>
+                                                <!-- Agrega más colores según sea necesario -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <style>
+                                        .accordion, .card, .card-heading, .card-body {
+                                            background-color: transparent; /* Esto hará que el fondo sea transparente */
+                                        }
+                                    </style>
+                                </div>
+                                <div class="card">
+                                    <div class="card-heading">
+                                        <a data-toggle="collapse" data-target="#collapsePrice">Precio</a>
+                                    </div>
+                                    <div id="collapsePrice" class="collapse" data-parent="#accordionExample">
+                                        <div class="card-body">
+                                            <div class="shop__sidebar__price">
+                                                <button class="priceFilter" data-price="50000">50.000</button>
+                                                <button class="priceFilter" data-price="100000">100.000</button>
+                                                <button class="priceFilter" data-price="150000">150.000</button>
+                                                <!-- Agrega más botones para otros precios específicos -->
+                                                <button class="priceFilter" data-price="">Mostrar Todos</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                
+                                
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-9">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6 col-sm-6" id="E2007"  data-size="85,90,95" data-color="negro ruby verde" data-price="50000">
+                            <div class="product__item">
+                                <div class="product__item__pic" data-modal="modalE2007">
+                                     <img src="image/E2007/E2007-1.svg" alt="E2007">
+                                            <ul class="product__hover">
+                                              <li><a href="#"><img src="image/icon/search.png" alt=""></a></li>
+                                          </ul>
+                               </div>
+                               <div class="product__item__text">
+                                   <h6>E2007</h6>
+                                   <div class="modal-description product-M23055" data-product-code="M23055">
+                                    <a href="#" class="whatsappLink">Contactar por WhatsApp</a>
+                                </div>
+                               
+                               
+                                   <div class="rating">
+                                       <i class="fa fa-star-o"></i>
+                                       <i class="fa fa-star-o"></i>
+                                       <i class="fa fa-star-o"></i>
+                                       <i class="fa fa-star-o"></i>
+                                       <i class="fa fa-star-o"></i>
+                                   </div>
+                                   <h5>50.000</h5>
+                                   <div class="product__color__select">
+                                       <label for="pc-4">
+                                           <input type="radio" id="pc-4">
+                                       </label>
+                                       <label class="active black" for="pc-5">
+                                           <input type="radio" id="pc-5">
+                                       </label>
+                                       <label class="grey" for="pc-6">
+                                           <input type="radio" id="pc-6">
+                                       </label>
+                                   </div>
+                               </div>
+                           </div>
+                       </div>
+                       
+                       <!-- Ventana modal para mostrar más información-->
+                       <div id="modalE2007" class="modal">
+                        
+                           <div class="modal-content">
+                               <span class="close">&times;</span>
+                               <h2>Información de la Imagen E2007</h2>
+                               <div class="modal-body">
+                                
+                                   <div class="modal-images">
+                                       <img src="image/E2007/E2007-1.svg" alt="Imagen Relacionada">
+                                       <img src="image/E2007/E2007-2.svg" alt="Imagen Principal">
+                                       <img src="image/E2007/E2007-3.svg" alt="Imagen Relacionada">
+                                       <img src="image/E2007/E2007-4.svg" alt="Imagen Relacionada">
+                                   </div>
+                                   <div class="product-details">
+                                    <!-- Detalles del producto aquí -->
+                                    <h3>Detalles del Producto</h3>
+                                    <p><strong>Tallas:</strong> 85,90,95</p>
+                                    <p><strong>Colores:</strong> negro rubi verde</p>
+                                    <p><strong>Precio:</strong> $50.000</p>
+                                    <div class="modal-description product-E2007" data-product-code="E2007">
+                                        <a href="#" class="whatsappLink">Contactar por WhatsApp</a>
+                                    </div>
+                                    <!-- Otros detalles según sea necesario -->
+                                   </div>
+                                
+                                 
+                               </div>
+                           </div>
+                       </div>
+                    
+                   
+                        <div class="col-lg-4 col-md-6 col-sm-6" id="E2012"  data-size="85,90,95" data-color="negro terra sofia" data-price="50000">
+                            <div class="product__item">
+                                <div class="product__item__pic" data-modal="modalE2012">
+                                     <img src="image/E2012/E2012-1.svg" alt="E2012">
+                                            <ul class="product__hover">
+                                              <li><a href="#"><img src="image/icon/search.png" alt=""></a></li>
+                                          </ul>
+                               </div>
+                               <div class="product__item__text">
+                                   <h6>E2012</h6>
+                                   <div class="modal-description product-E2012" data-product-code="E2012">
+                                    <a href="#" class="whatsappLink">Contactar por WhatsApp</a>
+                                </div>
+                                   <div class="rating">
+                                       <i class="fa fa-star-o"></i>
+                                       <i class="fa fa-star-o"></i>
+                                       <i class="fa fa-star-o"></i>
+                                       <i class="fa fa-star-o"></i>
+                                       <i class="fa fa-star-o"></i>
+                                   </div>
+                                   <h5>50.000</h5>
+                                   <div class="product__color__select">
+                                       <label for="pc-4">
+                                           <input type="radio" id="pc-4">
+                                       </label>
+                                       <label class="active black" for="pc-5">
+                                           <input type="radio" id="pc-5">
+                                       </label>
+                                       <label class="grey" for="pc-6">
+                                           <input type="radio" id="pc-6">
+                                       </label>
+                                   </div>
+                               </div>
+                           </div>
+                       </div>
+                       
+                       <!-- Ventana modal para mostrar más información-->
+                       <div id="modalE2012" class="modal">
+                        
+                           <div class="modal-content">
+                               <span class="close">&times;</span>
+                               <h2>Información de la Imagen E2012</h2>
+                               <div class="modal-body">
+                                
+                                   <div class="modal-images">
+                                       <img src="image/E2012/E2012-1.svg" alt="Imagen Relacionada">
+                                       <img src="image/E2012/E2012-2.svg" alt="Imagen Principal">
+                                       <img src="image/E2012/E2012-3.svg" alt="Imagen Relacionada">
+                                       <img src="image/E2012/E2012-4.svg" alt="Imagen Relacionada">
+                                   </div>
+                                   <div class="product-details">
+                                    <!-- Detalles del producto aquí -->
+                                    <h3>Detalles del Producto</h3>
+                                    <p><strong>Tallas:</strong> 85,90,95</p>
+                                    <p><strong>Colores:</strong> negro terra sofia</p>
+                                    <p><strong>Precio:</strong> $50.000</p>
+                                    <div class="modal-description product-E2012" data-product-code="E2012">
+                                        <a href="#" class="whatsappLink">Contactar por WhatsApp</a>
+                                    </div>
+                                    <!-- Otros detalles según sea necesario -->
+                                   </div>
+                                
+                                 
+                               </div>
+                           </div>
+                       </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6" id="E2057" data-size="85,90,95" data-color="negro nude" >
+                            <div class="product__item">
+                                <div class="product__item__pic" data-modal="modalE2057">
+                                     <img src="image/E2057/E2057-1.svg" alt="E2057">
+                                            <ul class="product__hover">
+                                           
+                                              <li><a href="#"><img src="image/icon/search.png" alt=""></a></li>
+                                          </ul>
+                               </div>
+                               <div class="product__item__text">
+                                   <h6>E2057</h6>
+                                   <div class="modal-description product-E2057" data-product-code="E2057">
+                                    <a href="#" class="whatsappLink">Contactar por WhatsApp</a>
+                                </div>
+                                   <div class="rating">
+                                       <i class="fa fa-star-o"></i>
+                                       <i class="fa fa-star-o"></i>
+                                       <i class="fa fa-star-o"></i>
+                                       <i class="fa fa-star-o"></i>
+                                       <i class="fa fa-star-o"></i>
+                                   </div>
+                                   <h5>100.000</h5>
+                                   <div class="product__color__select">
+                                       <label for="pc-4">
+                                           <input type="radio" id="pc-4">
+                                       </label>
+                                       <label class="active black" for="pc-5">
+                                           <input type="radio" id="pc-5">
+                                       </label>
+                                       <label class="grey" for="pc-6">
+                                           <input type="radio" id="pc-6">
+                                       </label>
+                                   </div>
+                               </div>
+                           </div>
+                       </div>
+                       
+                       <!-- Ventana modal para mostrar más información -->
+                       <div id="modalE2057" class="modal">
+                           <div class="modal-content">
+                               <span class="close">&times;</span>
+                               <h2>Información de la Imagen E2057</h2>
+                               <div class="modal-body">
+                                   <div class="modal-images">
+                                       <img src="image/E2057/E2057-1.svg" alt="Imagen Relacionada">
+                                       <img src="image/E2057/E2057-2.svg" alt="Imagen Principal">
+                                       <img src="image/E2057/E2057-3.svg" alt="Imagen Relacionada">
+                                       <img src="image/E2057/E2057-4.svg" alt="Imagen Relacionada">
+                                 
+                                   </div>
+                                   <div class="product-details">
+                                    <!-- Detalles del producto aquí -->
+                                    <h3>Detalles del Producto</h3>
+                                    <p><strong>Tallas:</strong> 85,90,95</p>
+                                    <p><strong>Colores:</strong> negro nude</p>
+                                    <p><strong>Precio:</strong> $50.000</p>
+                                    <div class="modal-description product-E2057" data-product-code="E2057">
+                                        <a href="#" class="whatsappLink">Contactar por WhatsApp</a>
+                                    </div>
+                                    <!-- Otros detalles según sea necesario -->
+                                   </div>
+                               </div>
+                           </div>
+                       </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6" id="E2024" data-size="85,90,95" data-color="negro blanco" data-price="50000">
+                            <div class="product__item">
+                                <div class="product__item__pic" data-modal="modalE2024">
+                                     <img src="image/E2024/E2024-1.svg" alt="E2024">
+                                            <ul class="product__hover">
+                                           
+                                              <li><a href="#"><img src="image/icon/search.png" alt=""></a></li>
+                                          </ul>
+                               </div>
+                               <div class="product__item__text">
+                                   <h6>E2024</h6>
+                                   <div class="modal-description product-E2024" data-product-code="E2024">
+                                    <a href="#" class="whatsappLink">Contactar por WhatsApp</a>
+                                </div>
+                                   <div class="rating">
+                                       <i class="fa fa-star-o"></i>
+                                       <i class="fa fa-star-o"></i>
+                                       <i class="fa fa-star-o"></i>
+                                       <i class="fa fa-star-o"></i>
+                                       <i class="fa fa-star-o"></i>
+                                   </div>
+                                   <h5>50.000</h5>
+                                   <div class="product__color__select">
+                                       <label for="pc-4">
+                                           <input type="radio" id="pc-4">
+                                       </label>
+                                       <label class="active black" for="pc-5">
+                                           <input type="radio" id="pc-5">
+                                       </label>
+                                       <label class="grey" for="pc-6">
+                                           <input type="radio" id="pc-6">
+                                       </label>
+                                   </div>
+                               </div>
+                           </div>
+                       </div>
+                       
+                       <!-- Ventana modal para mostrar más información -->
+                       <div id="modalE2024" class="modal">
+                           <div class="modal-content">
+                               <span class="close">&times;</span>
+                               <h2>Información de la Imagen E2024</h2>
+                               <div class="modal-body">
+                                   <div class="modal-images">
+                                       <img src="image/E2024/E2024-1.svg" alt="Imagen Relacionada">
+                                       <img src="image/E2024/E2024-2.svg" alt="Imagen Principal">
+                                       <img src="image/E2024/E2024-3.svg" alt="Imagen Relacionada">
+                                       <img src="image/E2024/E2024-4.svg" alt="Imagen Relacionada">
+                                   </div>
+                                   <div class="product-details">
+                                    <!-- Detalles del producto aquí -->
+                                    <h3>Detalles del Producto</h3>
+                                    <p><strong>Tallas:</strong> 85,90,95</p>
+                                    <p><strong>Colores:</strong> negro blanco</p>
+                                    <p><strong>Precio:</strong> $50.000</p>
+                                    <div class="modal-description product-E2024" data-product-code="E2024">
+                                        <a href="#" class="whatsappLink">Contactar por WhatsApp</a>
+                                    </div>
+                                    <!-- Otros detalles según sea necesario -->
+                                   </div>
+                               </div>
+                           </div>
+                       </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6" id="E2005" data-size="85,90,95" data-color="blanco negro">
+                             <div class="product__item">
+                                 <div class="product__item__pic" data-modal="modalE2005">
+                                      <img src="image/E2005/E2005-1.svg" alt="E2005">
+                                             <ul class="product__hover">
+                                             
+                                               <li><a href="#"><img src="image/icon/search.png" alt=""></a></li>
+                                           </ul>
+                                </div>
+                                <div class="product__item__text">
+                                    <h6>E2005</h6>
+                                    <div class="modal-description product-E2005" data-product-code="E2005">
+                                        <a href="#" class="whatsappLink">Contactar por WhatsApp</a>
+                                    </div>
+                                    <div class="rating">
+                                        <i class="fa fa-star-o"></i>
+                                        <i class="fa fa-star-o"></i>
+                                        <i class="fa fa-star-o"></i>
+                                        <i class="fa fa-star-o"></i>
+                                        <i class="fa fa-star-o"></i>
+                                    </div>
+                                    <h5>100.000</h5>
+                                    <div class="product__color__select">
+                                        <label for="pc-4">
+                                            <input type="radio" id="pc-4">
+                                        </label>
+                                        <label class="active black" for="pc-5">
+                                            <input type="radio" id="pc-5">
+                                        </label>
+                                        <label class="grey" for="pc-6">
+                                            <input type="radio" id="pc-6">
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Ventana modal para mostrar más información -->
+                        <div id="modalE2005" class="modal">
+                            <div class="modal-content">
+                                <span class="close">&times;</span>
+                                <h2>Información de la Imagen E2005</h2>
+                                <div class="modal-body">
+                                    <div class="modal-images">
+                                        <img src="image/E2005/E2005-1.svg" alt="Imagen Relacionada">
+                                        <img src="image/E2005/E2005-2.svg" alt="Imagen Principal">
+                                        <img src="image/E2005/E2005-3.svg" alt="Imagen Relacionada">
+                                        <img src="image/E2005/E2005-4.svg" alt="Imagen Relacionada">
+                                    </div>
+                                    <div class="product-details">
+                                        <!-- Detalles del producto aquí -->
+                                        <h3>Detalles del Producto</h3>
+                                        <p><strong>Tallas:</strong> 85,90,95</p>
+                                        <p><strong>Colores:</strong> blanco negro</p>
+                                        <p><strong>Precio:</strong> $50.000</p>
+                                        <div class="modal-description product-E2005" data-product-code="E2005">
+                                            <a href="#" class="whatsappLink">Contactar por WhatsApp</a>
+                                        </div>
+                                        <!-- Otros detalles según sea necesario -->
+                                       </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6" id="E2028" data-size="85,90,95" data-color="blanco negro" >
+                            <div class="product__item">
+                                <div class="product__item__pic" data-modal="modalE2028">
+                                     <img src="image/E2028/E2028-1.svg" alt="E2028">
+                                            <ul class="product__hover">
+                                           
+                                              <li><a href="#"><img src="image/icon/search.png" alt=""></a></li>
+                                          </ul>
+                               </div>
+                               <div class="product__item__text">
+                                   <h6>E2028</h6>
+                                   <div class="modal-description product-E2028" data-product-code="E2028">
+                                    <a href="#" class="whatsappLink">Contactar por WhatsApp</a>
+                                </div>
+                                   <div class="rating">
+                                       <i class="fa fa-star-o"></i>
+                                       <i class="fa fa-star-o"></i>
+                                       <i class="fa fa-star-o"></i>
+                                       <i class="fa fa-star-o"></i>
+                                       <i class="fa fa-star-o"></i>
+                                   </div>
+                                   <h5>100.000</h5>
+                                   <div class="product__color__select">
+                                       <label for="pc-4">
+                                           <input type="radio" id="pc-4">
+                                       </label>
+                                       <label class="active black" for="pc-5">
+                                           <input type="radio" id="pc-5">
+                                       </label>
+                                       <label class="grey" for="pc-6">
+                                           <input type="radio" id="pc-6">
+                                       </label>
+                                   </div>
+                               </div>
+                           </div>
+                       </div>
+                       
+                       <!-- Ventana modal para mostrar más información -->
+                       <div id="modalE2028" class="modal">
+                           <div class="modal-content">
+                               <span class="close">&times;</span>
+                               <h2>Información de la ImagenE2028</h2>
+                               <div class="modal-body">
+                                   <div class="modal-images">
+                                       <img src="image/E2028/E2028-1.svg" alt="Imagen Relacionada">
+                                       <img src="image/E2028/E2028-2.svg" alt="Imagen Principal">
+                                       <img src="image/E2028/E2028-3.svg" alt="Imagen Relacionada">
+                                       <img src="image/E2028/E2028-4.svg" alt="Imagen Relacionada">
+                                   </div>
+                                   <div class="product-details">
+                                    <!-- Detalles del producto aquí -->
+                                    <h3>Detalles del Producto</h3>
+                                    <p><strong>Tallas:</strong> 85,90,95</p>
+                                    <p><strong>Colores:</strong> blanco negro</p>
+                                    <p><strong>Precio:</strong> $50.000</p>
+                                    <div class="modal-description product-E2028" data-product-code="E2028">
+                                        <a href="#" class="whatsappLink">Contactar por WhatsApp</a>
+                                    </div>
+                                    <!-- Otros detalles según sea necesario -->
+                                   </div>
+                               </div>
+                           </div>
+                       </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6" id="E2048" data-size="85,90,95" data-color="blanco negro ruby">
+                             <div class="product__item">
+                                 <div class="product__item__pic" data-modal="modalE2048">
+                                      <img src="image/E2048/E2048-1.svg" alt="E2048">
+                                             <ul class="product__hover">
+                                             
+                                               <li><a href="#"><img src="image/icon/search.png" alt=""></a></li>
+                                           </ul>
+                                </div>
+                                <div class="product__item__text">
+                                    <h6>E2048</h6>
+                                    <div class="modal-description product-E2048" data-product-code="E2048">
+                                        <a href="#" class="whatsappLink">Contactar por WhatsApp</a>
+                                    </div>
+                                    <div class="rating">
+                                        <i class="fa fa-star-o"></i>
+                                        <i class="fa fa-star-o"></i>
+                                        <i class="fa fa-star-o"></i>
+                                        <i class="fa fa-star-o"></i>
+                                        <i class="fa fa-star-o"></i>
+                                    </div>
+                                    <h5>100.000</h5>
+                                    <div class="product__color__select">
+                                        <label for="pc-4">
+                                            <input type="radio" id="pc-4">
+                                        </label>
+                                        <label class="active black" for="pc-5">
+                                            <input type="radio" id="pc-5">
+                                        </label>
+                                        <label class="grey" for="pc-6">
+                                            <input type="radio" id="pc-6">
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Ventana modal para mostrar más información -->
+                        <div id="modalE2048" class="modal">
+                            <div class="modal-content">
+                                <span class="close">&times;</span>
+                                <h2>Información de la Imagen E2048</h2>
+                                <div class="modal-body">
+                                    <div class="modal-images">
+                                        <img src="image/E2048/E2048-1.svg" alt="Imagen Relacionada">
+                                        <img src="image/E2048/E2048-2.svg" alt="Imagen Principal">
+                                        <img src="image/E2048/E2048-3.svg" alt="Imagen Relacionada">
+                                        <img src="image/E2048/E2048-4.svg" alt="Imagen Relacionada">
+                                    </div>
+                                    <div class="product-details">
+                                        <!-- Detalles del producto aquí -->
+                                        <h3>Detalles del Producto</h3>
+                                        <p><strong>Tallas:</strong> 85,90,95</p>
+                                        <p><strong>Colores:</strong> blanco negro rubi</p>
+                                        <p><strong>Precio:</strong> $50.000</p>
+                                        <div class="modal-description product-E2048" data-product-code="E2048">
+                                            <a href="#" class="whatsappLink">Contactar por WhatsApp</a>
+                                        </div>
+                                        <!-- Otros detalles según sea necesario -->
+                                       </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6" id="E2056" data-size="85,90,95" data-color="negro">
+                            <div class="product__item">
+                                <div class="product__item__pic" data-modal="modalE2056">
+                                     <img src="image/E2056/E2056-1.svg" alt="E2056">
+                                            <ul class="product__hover">
+                                           
+                                              <li><a href="#"><img src="image/icon/search.png" alt=""></a></li>
+                                          </ul>
+                               </div>
+                               <div class="product__item__text">
+                                   <h6>E2056</h6>
+                                   <div class="modal-description product-E2056" data-product-code="E2056">
+                                    <a href="#" class="whatsappLink">Contactar por WhatsApp</a>
+                                </div>
+                                   <div class="rating">
+                                       <i class="fa fa-star-o"></i>
+                                       <i class="fa fa-star-o"></i>
+                                       <i class="fa fa-star-o"></i>
+                                       <i class="fa fa-star-o"></i>
+                                       <i class="fa fa-star-o"></i>
+                                   </div>
+                                   <h5>100.000</h5>
+                                   <div class="product__color__select">
+                                       <label for="pc-4">
+                                           <input type="radio" id="pc-4">
+                                       </label>
+                                       <label class="active black" for="pc-5">
+                                           <input type="radio" id="pc-5">
+                                       </label>
+                                       <label class="grey" for="pc-6">
+                                           <input type="radio" id="pc-6">
+                                       </label>
+                                   </div>
+                               </div>
+                           </div>
+                       </div>
+                       
+                       <!-- Ventana modal para mostrar más información -->
+                       <div id="modalE2056" class="modal">
+                           <div class="modal-content">
+                               <span class="close">&times;</span>
+                               <h2>Información de la Imagen E2056</h2>
+                               <div class="modal-body">
+                                   <div class="modal-images">
+                                       <img src="image/E2056/E2056-1.svg" alt="Imagen Relacionada">
+                                       <img src="image/E2056/E2056-2.svg" alt="Imagen Principal">
+                                       <img src="image/E2056/E2056-3.svg" alt="Imagen Relacionada">
+                                       <img src="image/E2056/E2056-4.svg" alt="Imagen Relacionada">
+                                   </div>
+                                   <div class="product-details">
+                                    <!-- Detalles del producto aquí -->
+                                    <h3>Detalles del Producto</h3>
+                                    <p><strong>Tallas:</strong> 85,90,95</p>
+                                    <p><strong>Colores:</strong> negro</p>
+                                    <p><strong>Precio:</strong> $50.000</p>
+                                    <div class="modal-description product-E2056" data-product-code="E2056">
+                                        <a href="#" class="whatsappLink">Contactar por WhatsApp</a>
+                                    </div>
+                                    <!-- Otros detalles según sea necesario -->
+                                   </div>
+                               </div>
+                           </div>
+                       </div>
+                               <div class="col-lg-4 col-md-6 col-sm-6" id="E2044" data-size="85,90,95" data-color="sofia vino">
+                            <div class="product__item">
+                                <div class="product__item__pic" data-modal="modalE2044">
+                                     <img src="image/E2044/E2044-1.svg" alt="E2044">
+                                            <ul class="product__hover">
+                                           
+                                              <li><a href="#"><img src="image/icon/search.png" alt=""></a></li>
+                                          </ul>
+                               </div>
+                               <div class="product__item__text">
+                                   <h6>E2044</h6>
+                                   <div class="modal-description product-E2044" data-product-code="E2044">
+                                    <a href="#" class="whatsappLink">Contactar por WhatsApp</a>
+                                </div>
+                                   <div class="rating">
+                                       <i class="fa fa-star-o"></i>
+                                       <i class="fa fa-star-o"></i>
+                                       <i class="fa fa-star-o"></i>
+                                       <i class="fa fa-star-o"></i>
+                                       <i class="fa fa-star-o"></i>
+                                   </div>
+                                   <h5>100.000</h5>
+                                   <div class="product__color__select">
+                                       <label for="pc-4">
+                                           <input type="radio" id="pc-4">
+                                       </label>
+                                       <label class="active black" for="pc-5">
+                                           <input type="radio" id="pc-5">
+                                       </label>
+                                       <label class="grey" for="pc-6">
+                                           <input type="radio" id="pc-6">
+                                       </label>
+                                   </div>
+                               </div>
+                           </div>
+                       </div>
+                       
+                       <!-- Ventana modal para mostrar más información -->
+                       <div id="modalE2044" class="modal">
+                           <div class="modal-content">
+                               <span class="close">&times;</span>
+                               <h2>Información de la ImagenE2044</h2>
+                               <div class="modal-body">
+                                   <div class="modal-images">
+                                       <img src="image/E2044/E2044-1.svg" alt="Imagen Relacionada">
+                                       <img src="image/E2044/E2044-2.svg" alt="Imagen Principal">
+                                       <img src="image/E2044/E2044-3.svg" alt="Imagen Relacionada">
+                                       <img src="image/E2044/E2044-4.svg" alt="Imagen Relacionada">
+                                   </div>
+                                   <div class="product-details">
+                                    <!-- Detalles del producto aquí -->
+                                    <h3>Detalles del Producto</h3>
+                                    <p><strong>Tallas:</strong> 85,90,95</p>
+                                    <p><strong>Colores:</strong> Rojo, Azul, Verde</p>
+                                    <p><strong>Precio:</strong> $50.000</p>
+                                    <div class="modal-description product-E2044" data-product-code="E2044">
+                                        <a href="#" class="whatsappLink">Contactar por WhatsApp</a>
+                                    </div>
+                                    <!-- Otros detalles según sea necesario -->
+                                   </div>
+                               </div>
+                           </div>
+                       </div>                               
+                        <div class="col-lg-4 col-md-6 col-sm-6" id="E2061" data-size="90,95">
+                            <div class="product__item">
+                                <div class="product__item__pic" data-modal="modalE2061">
+                                     <img src="image/E2061/E2061-1.svg" alt="E2061">
+                                            <ul class="product__hover">
+                                           
+                                              <li><a href="#"><img src="image/icon/search.png" alt=""></a></li>
+                                          </ul>
+                               </div>
+                               <div class="product__item__text">
+                                   <h6>E2061</h6>
+                                   <div class="modal-description product-E2061" data-product-code="E2061">
+                                    <a href="#" class="whatsappLink">Contactar por WhatsApp</a>
+                                </div>
+                                   <div class="rating">
+                                       <i class="fa fa-star-o"></i>
+                                       <i class="fa fa-star-o"></i>
+                                       <i class="fa fa-star-o"></i>
+                                       <i class="fa fa-star-o"></i>
+                                       <i class="fa fa-star-o"></i>
+                                   </div>
+                                   <h5>100.000</h5>
+                                   <div class="product__color__select">
+                                       <label for="pc-4">
+                                           <input type="radio" id="pc-4">
+                                       </label>
+                                       <label class="active black" for="pc-5">
+                                           <input type="radio" id="pc-5">
+                                       </label>
+                                       <label class="grey" for="pc-6">
+                                           <input type="radio" id="pc-6">
+                                       </label>
+                                   </div>
+                               </div>
+                           </div>
+                       </div>
+                       
+                       <!-- Ventana modal para mostrar más información -->
+                       <div id="modalE2061" class="modal">
+                           <div class="modal-content">
+                               <span class="close">&times;</span>
+                               <h2>Información de la ImagenE2061</h2>
+                               <div class="modal-body">
+                                   <div class="modal-images">
+                                       <img src="image/E2061/E2061-1.svg" alt="Imagen Relacionada">
+                                       <img src="image/E2061/E2061-2.svg" alt="Imagen Principal">
+                                       <img src="image/E2061/E2061-3.svg" alt="Imagen Relacionada">
+                                       <img src="image/E2061/E2061-4.svg" alt="Imagen Relacionada">
+                                   </div>
+                                   <div class="product-details">
+                                    <!-- Detalles del producto aquí -->
+                                    <h3>Detalles del Producto</h3>
+                                    <p><strong>Tallas:</strong> 90,95</p>
+                                    <p><strong>Colores:</strong> sofia vino</p>
+                                    <p><strong>Precio:</strong> $50.000</p>
+                                    <div class="modal-description product-E2061" data-product-code="E2061">
+                                        <a href="#" class="whatsappLink">Contactar por WhatsApp</a>
+                                    </div>
+                                    <!-- Otros detalles según sea necesario -->
+                                   </div>
+                               </div>
+                           </div>
+                       </div>
+
+                       <div class="col-lg-4 col-md-6 col-sm-6" id="E2043" data-size="85,90,95" data-color="sofia">
+                            <div class="product__item">
+                                <div class="product__item__pic" data-modal="modalE2043">
+                                     <img src="image/E2043/E2043-1.svg" alt="E2043">
+                                            <ul class="product__hover">
+                                           
+                                              <li><a href="#"><img src="image/icon/search.png" alt=""></a></li>
+                                          </ul>
+                               </div>
+                               <div class="product__item__text">
+                                   <h6>E2043</h6>
+                                   <div class="modal-description product-E2043" data-product-code="E2043">
+                                    <a href="#" class="whatsappLink">Contactar por WhatsApp</a>
+                                </div>
+                                   <div class="rating">
+                                       <i class="fa fa-star-o"></i>
+                                       <i class="fa fa-star-o"></i>
+                                       <i class="fa fa-star-o"></i>
+                                       <i class="fa fa-star-o"></i>
+                                       <i class="fa fa-star-o"></i>
+                                   </div>
+                                   <h5>100.000</h5>
+                                   <div class="product__color__select">
+                                       <label for="pc-4">
+                                           <input type="radio" id="pc-4">
+                                       </label>
+                                       <label class="active black" for="pc-5">
+                                           <input type="radio" id="pc-5">
+                                       </label>
+                                       <label class="grey" for="pc-6">
+                                           <input type="radio" id="pc-6">
+                                       </label>
+                                   </div>
+                               </div>
+                           </div>
+                       </div>
+                       
+                       <!-- Ventana modal para mostrar más información -->
+                       <div id="modalE2043" class="modal">
+                           <div class="modal-content">
+                               <span class="close">&times;</span>
+                               <h2>Información de la ImagenE2043</h2>
+                               <div class="modal-body">
+                                   <div class="modal-images">
+                                       <img src="image/E2043/E2043-1.svg" alt="Imagen Relacionada">
+                                       <img src="image/E2043/E2043-2.svg" alt="Imagen Principal">
+                                       <img src="image/E2043/E2043-3.svg" alt="Imagen Relacionada">
+                                       <img src="image/E2043/E2043-4.svg" alt="Imagen Relacionada">
+                                   </div>
+                                   <div class="product-details">
+                                    <!-- Detalles del producto aquí -->
+                                    <h3>Detalles del Producto</h3>
+                                    <p><strong>Tallas:</strong> 85,90,95</p>
+                                    <p><strong>Colores:</strong> sofia</p>
+                                    <p><strong>Precio:</strong> $50.000</p>
+                                    <div class="modal-description product-E2043" data-product-code="E2043">
+                                        <a href="#" class="whatsappLink">Contactar por WhatsApp</a>
+                                    </div>
+                                    <!-- Otros detalles según sea necesario -->
+                                   </div>
+                               </div>
+                           </div>
+                       </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6" id="E2062" data-size="85,90,95" data-color="negro blanco">
+                            <div class="product__item">
+                                <div class="product__item__pic" data-modal="modalE2062">
+                                     <img src="image/E2062/E2062-1.svg" alt="E2062">
+                                            <ul class="product__hover">
+                                           
+                                              <li><a href="#"><img src="image/icon/search.png" alt=""></a></li>
+                                          </ul>
+                               </div>
+                               <div class="product__item__text">
+                                   <h6>E2062</h6>
+                                   <div class="modal-description product-E2062" data-product-code="E2062">
+                                    <a href="#" class="whatsappLink">Contactar por WhatsApp</a>
+                                </div>
+                                   <div class="rating">
+                                       <i class="fa fa-star-o"></i>
+                                       <i class="fa fa-star-o"></i>
+                                       <i class="fa fa-star-o"></i>
+                                       <i class="fa fa-star-o"></i>
+                                       <i class="fa fa-star-o"></i>
+                                   </div>
+                                   <h5>100.000</h5>
+                                   <div class="product__color__select">
+                                       <label for="pc-4">
+                                           <input type="radio" id="pc-4">
+                                       </label>
+                                       <label class="active black" for="pc-5">
+                                           <input type="radio" id="pc-5">
+                                       </label>
+                                       <label class="grey" for="pc-6">
+                                           <input type="radio" id="pc-6">
+                                       </label>
+                                   </div>
+                               </div>
+                           </div>
+                       </div>
+                       
+                       <!-- Ventana modal para mostrar más información -->
+                       <div id="modalE2062" class="modal">
+                           <div class="modal-content">
+                               <span class="close">&times;</span>
+                               <h2>Información de la ImagenE2062</h2>
+                               <div class="modal-body">
+                                   <div class="modal-images">
+                                       <img src="image/E2062/E2062-1.svg" alt="Imagen Relacionada">
+                                       <img src="image/E2062/E2062-2.svg" alt="Imagen Principal">
+                                       <img src="image/E2062/E2062-3.svg" alt="Imagen Relacionada">
+                                       <img src="image/E2062/E2062-4.svg" alt="Imagen Relacionada">
+                                   </div>
+                                   <div class="product-details">
+                                    <!-- Detalles del producto aquí -->
+                                    <h3>Detalles del Producto</h3>
+                                    <p><strong>Tallas:</strong> 85,90,95</p>
+                                    <p><strong>Colores:</strong> negro blanco</p>
+                                    <p><strong>Precio:</strong> $50.000</p>
+                                    <div class="modal-description product-E2062" data-product-code="E2062">
+                                        <a href="#" class="whatsappLink">Contactar por WhatsApp</a>
+                                    </div>
+                                    <!-- Otros detalles según sea necesario -->
+                                   </div>
+                               </div>
+                           </div>
+                       </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6" id="E2035" data-size="85,90" data-color="sofia negro">
+                            <div class="product__item">
+                                <div class="product__item__pic" data-modal="modalE2035">
+                                     <img src="image/E2035/E2035-1.svg" alt="E2035">
+                                            <ul class="product__hover">
+                                           
+                                              <li><a href="#"><img src="image/icon/search.png" alt=""></a></li>
+                                          </ul>
+                               </div>
+                               <div class="product__item__text">
+                                   <h6>E2035</h6>
+                                   <div class="modal-description product-E2035" data-product-code="E2035">
+                                    <a href="#" class="whatsappLink">Contactar por WhatsApp</a>
+                                </div>
+                                   <div class="rating">
+                                       <i class="fa fa-star-o"></i>
+                                       <i class="fa fa-star-o"></i>
+                                       <i class="fa fa-star-o"></i>
+                                       <i class="fa fa-star-o"></i>
+                                       <i class="fa fa-star-o"></i>
+                                   </div>
+                                   <h5>100.000</h5>
+                                   <div class="product__color__select">
+                                       <label for="pc-4">
+                                           <input type="radio" id="pc-4">
+                                       </label>
+                                       <label class="active black" for="pc-5">
+                                           <input type="radio" id="pc-5">
+                                       </label>
+                                       <label class="grey" for="pc-6">
+                                           <input type="radio" id="pc-6">
+                                       </label>
+                                   </div>
+                               </div>
+                           </div>
+                       </div>
+                       
+                       <!-- Ventana modal para mostrar más información -->
+                       <div id="modalE2035" class="modal">
+                           <div class="modal-content">
+                               <span class="close">&times;</span>
+                               <h2>Información de la ImagenE2035</h2>
+                               <div class="modal-body">
+                                   <div class="modal-images">
+                                       <img src="image/E2035/E2035-1.svg" alt="Imagen Relacionada">
+                                       <img src="image/E2035/E2035-2.svg" alt="Imagen Principal">
+                                       <img src="image/E2035/E2035-3.svg" alt="Imagen Relacionada">
+                                       <img src="image/E2035/E2035-4.svg" alt="Imagen Relacionada">
+                                   </div>
+                                   <div class="product-details">
+                                    <!-- Detalles del producto aquí -->
+                                    <h3>Detalles del Producto</h3>
+                                    <p><strong>Tallas:</strong> 85,90</p>
+                                    <p><strong>Colores:</strong> sofia negro</p>
+                                    <p><strong>Precio:</strong> $50.000</p>
+                                    <div class="modal-description product-E2035" data-product-code="E2035">
+                                        <a href="#" class="whatsappLink">Contactar por WhatsApp</a>
+                                    </div>
+                                    <!-- Otros detalles según sea necesario -->
+                                   </div>
+                               </div>
+                           </div>
+                       </div>
+                       <div class="col-lg-4 col-md-6 col-sm-6" id="E2045" data-size="85,90,95" data-color="sofia negro" data-price="50000">
+                            <div class="product__item">
+                                <div class="product__item__pic" data-modal="modalE2045">
+                                     <img src="image/E2045/E2045-1.svg" alt="E2045">
+                                            <ul class="product__hover">
+                                           
+                                              <li><a href="#"><img src="image/icon/search.png" alt=""></a></li>
+                                          </ul>
+                               </div>
+                               <div class="product__item__text">
+                                   <h6>E2045</h6>
+                                   <div class="modal-description product-E2045" data-product-code="E2045">
+                                    <a href="#" class="whatsappLink">Contactar por WhatsApp</a>
+                                </div>
+                                   <div class="rating">
+                                       <i class="fa fa-star-o"></i>
+                                       <i class="fa fa-star-o"></i>
+                                       <i class="fa fa-star-o"></i>
+                                       <i class="fa fa-star-o"></i>
+                                       <i class="fa fa-star-o"></i>
+                                   </div>
+                                   <h5>50.000</h5>
+                                   <div class="product__color__select">
+                                       <label for="pc-4">
+                                           <input type="radio" id="pc-4">
+                                       </label>
+                                       <label class="active black" for="pc-5">
+                                           <input type="radio" id="pc-5">
+                                       </label>
+                                       <label class="grey" for="pc-6">
+                                           <input type="radio" id="pc-6">
+                                       </label>
+                                   </div>
+                               </div>
+                           </div>
+                       </div>
+                       
+                       <!-- Ventana modal para mostrar más información -->
+                       <div id="modalE2045" class="modal">
+                           <div class="modal-content">
+                               <span class="close">&times;</span>
+                               <h2>Información de la Imagen E2045</h2>
+                               <div class="modal-body">
+                                   <div class="modal-images">
+                                       <img src="image/E2045/E2045-1.svg" alt="Imagen Relacionada">
+                                       <img src="image/E2045/E2045-2.svg" alt="Imagen Principal">
+                                       <img src="image/E2045/E2045-3.svg" alt="Imagen Relacionada">
+                                       <img src="image/E2045/E2045-4.svg" alt="Imagen Relacionada">
+                                   </div>
+                                   <div class="product-details">
+                                    <!-- Detalles del producto aquí -->
+                                    <h3>Detalles del Producto</h3>
+                                    <p><strong>Tallas:</strong> 85,90,95</p>
+                                    <p><strong>Colores:</strong> negro sofia</p>
+                                    <p><strong>Precio:</strong> $50.000</p>
+                                    <div class="modal-description product-E2045" data-product-code="E2045">
+                                        <a href="#" class="whatsappLink">Contactar por WhatsApp</a>
+                                    </div>
+                                    <!-- Otros detalles según sea necesario -->
+                                   </div>
+                               </div>
+                           </div>
+                       </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6" id="E2025" data-size="85,90,95" data-color="negro azul blanco">
+                             <div class="product__item">
+                                 <div class="product__item__pic" data-modal="modalE2025">
+                                      <img src="image/E2025/E2025-1.svg" alt="E2025">
+                                             <ul class="product__hover">
+                                             
+                                               <li><a href="#"><img src="image/icon/search.png" alt=""></a></li>
+                                           </ul>
+                                </div>
+                                <div class="product__item__text">
+                                    <h6>E2025</h6>
+                                    <div class="modal-description product-E2025" data-product-code="E2025">
+                                        <a href="#" class="whatsappLink">Contactar por WhatsApp</a>
+                                    </div>
+                                    <div class="rating">
+                                        <i class="fa fa-star-o"></i>
+                                        <i class="fa fa-star-o"></i>
+                                        <i class="fa fa-star-o"></i>
+                                        <i class="fa fa-star-o"></i>
+                                        <i class="fa fa-star-o"></i>
+                                    </div>
+                                    <h5>100.000</h5>
+                                    <div class="product__color__select">
+                                        <label for="pc-4">
+                                            <input type="radio" id="pc-4">
+                                        </label>
+                                        <label class="active black" for="pc-5">
+                                            <input type="radio" id="pc-5">
+                                        </label>
+                                        <label class="grey" for="pc-6">
+                                            <input type="radio" id="pc-6">
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Ventana modal para mostrar más información -->
+                        <div id="modalE2025" class="modal">
+                            <div class="modal-content">
+                                <span class="close">&times;</span>
+                                <h2>Información de la Imagen E2025</h2>
+                                <div class="modal-body">
+                                    <div class="modal-images">
+                                        <img src="image/E2025/E2025-1.svg" alt="Imagen Relacionada">
+                                        <img src="image/E2025/E2025-2.svg" alt="Imagen Principal">
+                                        <img src="image/E2025/E2025-3.svg" alt="Imagen Relacionada">
+                                        <img src="image/E2025/E2025-4.svg" alt="Imagen Relacionada">
+                                    </div>
+                                    <div class="product-details">
+                                        <!-- Detalles del producto aquí -->
+                                        <h3>Detalles del Producto</h3>
+                                        <p><strong>Tallas:</strong> 85,90,95</p>
+                                        <p><strong>Colores:</strong>azul blanco negro</p>
+                                        <p><strong>Precio:</strong> $50.000</p>
+                                        <div class="modal-description product-E2025" data-product-code="E2025">
+                                            <a href="#" class="whatsappLink">Contactar por WhatsApp</a>
+                                        </div>
+                                        <!-- Otros detalles según sea necesario -->
+                                       </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6" id="E2244" data-size="85,90,95" data-color="negro sofia">
+                            <div class="product__item">
+                                <div class="product__item__pic" data-modal="modalE2244">
+                                     <img src="image/E2244/E2244-1.svg" alt="E2244">
+                                            <ul class="product__hover">
+                                           
+                                              <li><a href="#"><img src="image/icon/search.png" alt=""></a></li>
+                                          </ul>
+                               </div>
+                               <div class="product__item__text">
+                                   <h6>E2244</h6>
+                                   <div class="modal-description product-E2044" data-product-code="E2044">
+                                    <a href="#" class="whatsappLink">Contactar por WhatsApp</a>
+                                </div>
+                                   <div class="rating">
+                                       <i class="fa fa-star-o"></i>
+                                       <i class="fa fa-star-o"></i>
+                                       <i class="fa fa-star-o"></i>
+                                       <i class="fa fa-star-o"></i>
+                                       <i class="fa fa-star-o"></i>
+                                   </div>
+                                   <h5>100.000</h5>
+                                   <div class="product__color__select">
+                                       <label for="pc-4">
+                                           <input type="radio" id="pc-4">
+                                       </label>
+                                       <label class="active black" for="pc-5">
+                                           <input type="radio" id="pc-5">
+                                       </label>
+                                       <label class="grey" for="pc-6">
+                                           <input type="radio" id="pc-6">
+                                       </label>
+                                   </div>
+                               </div>
+                           </div>
+                       </div>
+                       
+                       <!-- Ventana modal para mostrar más información -->
+                       <div id="modalE2244" class="modal">
+                           <div class="modal-content">
+                               <span class="close">&times;</span>
+                               <h2>Información de la ImagenE2244</h2>
+                               <div class="modal-body">
+                                   <div class="modal-images">
+                                       <img src="image/E2244/E2244-1.svg" alt="Imagen Relacionada">
+                                       <img src="image/E2244/E2244-2.svg" alt="Imagen Principal">
+                                       <img src="image/E2244/E2244-3.svg" alt="Imagen Relacionada">
+                                       <img src="image/E2244/E2244-4.svg" alt="Imagen Relacionada">
+                                   </div>
+                                   <div class="product-details">
+                                    <!-- Detalles del producto aquí -->
+                                    <h3>Detalles del Producto</h3>
+                                    <p><strong>Tallas:</strong> 85,90,95</p>
+                                    <p><strong>Colores:</strong> negro sofia</p>
+
+                                    <p><strong>Precio:</strong> $50.000</p>
+                                    <div class="modal-description product-E2044" data-product-code="E2044">
+                                        <a href="#" class="whatsappLink">Contactar por WhatsApp</a>
+                                    </div>
+                                    <!-- Otros detalles según sea necesario -->
+                                   </div>
+                               </div>
+                           </div>
+                       </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+                        
+                        
+                  
+                       
+    <!-- Shop Section End -->
+
+    <!-- Footer Section Begin -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="footer__about">
+                        <div class="footer__logo">
+                            <a href="#"><img src="img/footer-logo.png" alt=""></a>
+                        </div>
+                        <p>The customer is at the heart of our unique business model, which includes design.</p>
+                        <a href="#"><img src="img/payment.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="col-lg-2 offset-lg-1 col-md-3 col-sm-6">
+                    <div class="footer__widget">
+                        <h6>Shopping</h6>
+                        <ul>
+                            <li><a href="#">Clothing Store</a></li>
+                            <li><a href="#">Trending Shoes</a></li>
+                            <li><a href="#">Accessories</a></li>
+                            <li><a href="#">Sale</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-6">
+                    <div class="footer__widget">
+                        <h6>Shopping</h6>
+                        <ul>
+                            <li><a href="#">Contact Us</a></li>
+                            <li><a href="#">Payment Methods</a></li>
+                            <li><a href="#">Delivary</a></li>
+                            <li><a href="#">Return & Exchanges</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 offset-lg-1 col-md-6 col-sm-6">
+                    <div class="footer__widget">
+                        <h6>NewLetter</h6>
+                        <div class="footer__newslatter">
+                            <p>Be the first to know about new arrivals, look books, sales & promos!</p>
+                            <form action="#">
+                                <input type="text" placeholder="Your email">
+                                <button type="submit"><span class="icon_mail_alt"></span></button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <div class="footer__copyright__text">
+                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                        <p>Copyright ©
+                            <script>
+                                document.write(new Date().getFullYear());
+                            </script>2020
+                            All rights reserved | This template is made with <i class="fa fa-heart-o"
+                            aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+                        </p>
+                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer Section End -->
+
+    <!-- Search Begin -->
+    <div class="search-model">
+        <div class="h-100 d-flex align-items-center justify-content-center">
+            <div class="search-close-switch">+</div>
+            <form class="search-model-form">
+                <input type="text" id="search-input" placeholder="Search here.....">
+            </form>
+        </div>
+    </div>
+    <!-- Search End -->
+
+    <!-- Js Plugins -->
+    <script src="jquery-3.3.1.min.js"></script>
+    <script src="bootstrap.min.js"></script>
+    <script src="jquery.nice-select.min.js"></script>
+    <script src="jquery.nicescroll.min.js"></script>
+    <script src="jquery.magnific-popup.min.js"></script>
+    <script src="jquery.countdown.min.js"></script>
+    <script src="jquery.slicknav.js"></script>
+    <script src="mixitup.min.js"></script>
+    <script src="owl.carousel.min.js"></script>
+    <script src="main.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            // Añade eventos de clic a todas las imágenes de los productos
+            var images = document.querySelectorAll('.product__item__pic');
+            images.forEach(function(img) {
+                img.addEventListener('click', function() {
+                    // Obtiene el ID del modal asociado con la imagen
+                    var modalId = this.getAttribute('data-modal');
+                    var modal = document.getElementById(modalId);
+                    if(modal) {
+                        modal.style.display = "block";
+                    }
+                });
+            });
+        
+            // Añade eventos de clic a todos los botones de cierre
+            var closeButtons = document.querySelectorAll('.modal .close');
+            closeButtons.forEach(function(span) {
+                span.addEventListener('click', function() {
+                    // Encuentra el modal más cercano y lo cierra
+                    this.closest('.modal').style.display = "none";
+                });
+            });
+        
+            // Cierra el modal si se hace clic fuera de su contenido
+            window.addEventListener('click', function(event) {
+                if (event.target.classList.contains('modal')) {
+                    event.target.style.display = "none";
+                }
+            });
+        });
+    </script>
+    <script>
+        window.addEventListener("load", function() {
+            if (window.location.hash) {
+                var hash = window.location.hash.substring(1); // Obtiene el hash sin el '#'
+                var productElement = document.getElementById(hash);
+                if (productElement) {
+                    productElement.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }
+            }
+        });
+    </script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Evento para casillas de verificación
+            var sizeCheckboxes = document.querySelectorAll('.shop__sidebar__size input[type="checkbox"]');
+            sizeCheckboxes.forEach(function(checkbox) {
+                checkbox.addEventListener('change', function() {
+                    filterProductsBySize();
+                });
+            });
+        
+            // Evento para el botón de resetear
+            var resetButton = document.getElementById('resetFilter');
+            resetButton.addEventListener('click', function() {
+                sizeCheckboxes.forEach(function(checkbox) {
+                    checkbox.checked = false;
+                });
+                filterProductsBySize();
+            });
+        });
+        
+        function filterProductsBySize() {
+    var selectedSizes = Array.from(document.querySelectorAll('.shop__sidebar__size input[type="checkbox"]:checked')).map(function(checkbox) {
+        return checkbox.value;
+    });
+
+    var allProducts = document.querySelectorAll('.col-lg-4.col-md-6.col-sm-6');
+    allProducts.forEach(function(product) {
+        var productSizes = product.getAttribute('data-size').split(',');
+
+        // Comprobar si el producto tiene al menos una de las tallas seleccionadas
+        var matchesSelectedSize = selectedSizes.some(size => productSizes.includes(size));
+
+        if (selectedSizes.length === 0 || matchesSelectedSize) {
+            product.style.display = ''; // Mostrar el producto si coincide o si no hay tallas seleccionadas
+        } else {
+            product.style.display = 'none'; // Ocultar el producto si no coincide
+        }
+    });
+}
+
+    </script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var searchForm = document.getElementById('productSearchForm');
+            var searchInput = document.getElementById('productSearchInput');
+        
+            searchForm.addEventListener('submit', function(event) {
+                event.preventDefault(); // Previene el envío normal del formulario
+                var productId = searchInput.value.trim(); // Obtiene el ID ingresado por el usuario
+                var productElement = document.getElementById(productId); // Encuentra el producto por ID
+        
+                if (productElement) {
+                    productElement.scrollIntoView({ behavior: 'smooth' }); // Desplaza la vista al producto
+                } else {
+                    alert('Producto no encontrado'); // Mensaje si el producto no existe
+                }
+            });
+        });
+    </script>
+  
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            // Agregar evento de cambio a todos los botones de radio de colores
+            var colorRadios = document.querySelectorAll('.shop__sidebar__color input[type="radio"]');
+            colorRadios.forEach(function(radio) {
+                radio.addEventListener('change', function() {
+                    filterProductsByColor(this.value);
+                });
+            });
+        
+            // Manejar el evento de clic para el botón de mostrar todos los productos
+            var showAllButton = document.getElementById('showAllProducts');
+            showAllButton.addEventListener('click', function() {
+                filterProductsByColor('All');
+            });
+        });
+        
+        function filterProductsByColor(selectedColor) {
+            var allProducts = document.querySelectorAll('.col-lg-4.col-md-6.col-sm-6');
+        
+            allProducts.forEach(function(product) {
+                // Obtener el atributo data-color y dividirlo en un array de colores
+                var productColors = product.getAttribute('data-color').split(' ');
+        
+                // Verificar si el producto contiene el color seleccionado
+                var colorMatch = productColors.some(function(color) {
+                    return color.toLowerCase() === selectedColor.toLowerCase();
+                });
+        
+                if (selectedColor.toLowerCase() === "all" || colorMatch) {
+                    product.style.display = ''; // Mostrar el producto
+                } else {
+                    product.style.display = 'none'; // Ocultar los productos que no coinciden
+                }
+            });
+        }
+    </script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var priceButtons = document.querySelectorAll('.priceFilter');
+            priceButtons.forEach(function(button) {
+                button.addEventListener('click', function() {
+                    var price = this.getAttribute('data-price');
+                    filterProductsByPrice(price);
+                });
+            });
+        });
+        
+        function filterProductsByPrice(price) {
+            var allProducts = document.querySelectorAll('.col-lg-4.col-md-6.col-sm-6');
+            allProducts.forEach(function(product) {
+                if (price === '' || product.getAttribute('data-price') === price) {
+                    product.style.display = ''; // Mostrar el producto
+                } else {
+                    product.style.display = 'none'; // Ocultar los productos que no coinciden
+                }
+            });
+        }
+    </script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Encuentra todos los enlaces de WhatsApp por su clase
+            var whatsappLinks = document.querySelectorAll('.whatsappLink');
+        
+            // Itera sobre cada enlace
+            whatsappLinks.forEach(function(whatsappLink) {
+                // Encuentra el contenedor del enlace que tiene el atributo con el código del producto
+                var modalDescription = whatsappLink.closest('.modal-description');
+        
+                // Obtiene el código del producto desde el atributo 'data-product-code'
+                var productCode = modalDescription.getAttribute('data-product-code');
+        
+                // Crea el mensaje que quieres enviar
+                var message = "Me interesa este producto con código " + productCode;
+        
+                // Codifica el mensaje para uso en URL
+                var encodedMessage = encodeURIComponent(message);
+        
+                // Ajusta el 'href' del enlace de WhatsApp con el número de teléfono y el mensaje codificado
+                whatsappLink.href = `https://wa.me/+595972272096?text=${encodedMessage}`;
+            });
+        });
+            
+    </script>
+    
+        
+       
+</body>
+
+</html>
