@@ -736,7 +736,7 @@
 
 /* barras buscadoras*/
 .shop__sidebar__price button.priceFilter {
-	background-color: #4CAF50; /* Color de fondo */
+	background-color: #acb7ad; /* Color de fondo */
 	color: white; /* Color del texto */
 	padding: 10px 20px; /* Espaciado interno */
 	margin: 5px; /* Espacio exterior */
@@ -747,7 +747,7 @@
 }
 
 .shop__sidebar__price button.priceFilter:hover {
-	background-color: #45a049; /* Color de fondo al pasar el ratón por encima */
+	background-color: #777f77; /* Color de fondo al pasar el ratón por encima */
 }
 
 .shop__sidebar__price button.priceFilter[data-price=""] {
@@ -762,7 +762,7 @@
     display: inline-block;
     margin: 5px;
     padding: 5px 10px;
-    background-color: #4CAF50;
+    background-color: #4f524f;
     color: white;
     border-radius: 4px;
     cursor: pointer;
@@ -770,7 +770,7 @@
 }
 
 .shop__sidebar__size label:hover {
-    background-color: #45a049;
+    background-color: #4e524e;
 }
 
 /* Estilos para los radio buttons (ocultos pero funcionales) */
@@ -779,12 +779,12 @@
 }
 
 .shop__sidebar__size input[type="radio"]:checked + label {
-    background-color: #218838; /* Color diferente cuando está seleccionado */
+    background-color: #535954; /* Color diferente cuando está seleccionado */
 }
 
 /* Estilos para el botón 'Mostrar Todos' */
 #resetFilter {
-    background-color: #f44336;
+    background-color: #716c6c;
     color: white;
     padding: 10px 20px;
     margin: 5px;
@@ -795,7 +795,7 @@
 }
 
 #resetFilter:hover {
-    background-color: #d32f2f;
+    background-color: #635f5f;
 }
 /* Estilo para el encabezado de la tarjeta */
 .card-heading a {
@@ -825,7 +825,7 @@
 
 /* Estilo para el botón 'Mostrar Todos' */
 #showAllProducts {
-    background-color: #28a745; /* Color de fondo */
+    background-color: #595c5a; /* Color de fondo */
     color: white; /* Color del texto */
     padding: 10px 20px; /* Espaciado interno */
     border: none; /* Sin bordes */
@@ -835,7 +835,7 @@
 }
 
 #showAllProducts:hover {
-    background-color: #218838; /* Color de fondo al pasar el ratón por encima */
+    background-color: #6b746d; /* Color de fondo al pasar el ratón por encima */
 } 
 
 ul {
